@@ -62,6 +62,13 @@ public class BilanAnnuel {
 	public double getBeneficeNet() {
 		return beneficeImposable - impots;
 	}
+
+	@Override
+	public String toString() {
+		return "BilanAnnuel [ca=" + ca + ", charges=" + charges + ", cotizSoc=" + cotizSoc + ", impots=" + impots
+				+ ", revenuProfBrute=" + revenuProfBrute + ", beneficeImposable=" + beneficeImposable + ", beneficeNet="
+				+ beneficeNet + "]";
+	}
 	
 	
 	
