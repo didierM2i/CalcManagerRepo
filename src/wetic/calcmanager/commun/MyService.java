@@ -17,6 +17,11 @@ public final class MyService {
 	public String toString() {
 		return "MyService [toString()=" + super.toString() + "]";
 	}
+
+	public MyService() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 }
