@@ -12,4 +12,11 @@ public final class MyService {
 		
 		return result;
 	}
+
+	@Override
+	public String toString() {
+		return "MyService [toString()=" + super.toString() + "]";
+	}
+	
+	
 }
